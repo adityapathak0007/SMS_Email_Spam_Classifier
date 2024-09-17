@@ -1,4 +1,4 @@
-# SMS Spam Detection using Naive Bayes Classifier
+# SMS Email Spam Classifier✉️
 [View SMS Spam Detection](https://smsemailspamclassifier-92d9wf4ns5ufhqflappjxvr.streamlit.app/)
 
 This project is an SMS Spam Detection system that uses Natural Language Processing (NLP) and Machine Learning techniques to classify messages as spam or not spam. The project is implemented using Python and provides a user-friendly interface through a Streamlit web application.
