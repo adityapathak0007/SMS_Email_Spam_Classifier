@@ -3,33 +3,49 @@
 
 This project is an SMS Spam Detection system that uses Natural Language Processing (NLP) and Machine Learning techniques to classify messages as spam or not spam. The project is implemented using Python and provides a user-friendly interface through a Streamlit web application.
 
-## Project Overview
+## Overview
 
-This project involves:
+Spam messages can be a nuisance and even pose security risks. This project aims to build an effective spam detection system using a Naive Bayes classifier. By leveraging the power of NLP, the system can analyze and classify SMS messages, helping users to filter out unwanted spam.
 
-- Cleaning and preprocessing the SMS data.
-- Building a Naive Bayes classifier to detect spam messages.
-- Visualizing data insights and model performance.
-- Creating a Streamlit web application for real-time message classification.
+## Features
 
-## Dataset
+- **Text Preprocessing:** Cleans and preprocesses the SMS text data, including tokenization, removing stop words, and converting text to lowercase.
+- **Machine Learning Model:** Uses a Naive Bayes classifier to detect whether a message is spam or not.
+- **Streamlit Web Application:** A user-friendly interface for classifying messages in real-time.
+- **Data Visualization:** Provides insights into the dataset through visualizations.
+- **Model Persistence:** Saves the trained model and vectorizer for future use without retraining.
 
-The dataset used in this project is the **SMS Spam Collection** dataset. It consists of a collection of 5,574 SMS messages that have been classified as either 'ham' (legitimate) or 'spam'. The dataset can be found at the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection).
+## Technologies Used
 
-### Dataset Details
+- **Programming Language:** Python
+- **Libraries:** 
+  - `pandas` for data manipulation
+  - `nltk` for natural language processing
+  - `scikit-learn` for building and evaluating the machine learning model
+  - `Streamlit` for creating the web application
+- **Machine Learning Model:** Multinomial Naive Bayes
+- **Natural Language Processing:** TF-IDF Vectorizer
 
-- **Columns:**
-  - `label`: Indicates if the message is 'ham' or 'spam'.
-  - `message`: The content of the SMS message.
+  ## View the App
 
-- **Size:** 5,574 messages
+You can view the live View SMS Spam Detection app by clicking on the link below:
 
-## Usage
+[View SMS Spam Detection](https://smsemailspamclassifier-92d9wf4ns5ufhqflappjxvr.streamlit.app/)
 
-### 1. Cloning the Repository
 
-First, clone this repository to your local machine:
+## Contact
 
-```bash
-git clone https://github.com/your-username/sms-spam-detection.git
-cd sms-spam-detection
+For any questions, suggestions, or feedback, please feel free to reach out:
+
+- **Aditya Pathak**
+- **Email:** adityapathak034@gmail.com
+- **GitHub:** [adityapathak0007](https://github.com/adityapathak0007)
+- **LinkedIn:** [adityapathak07](www.linkedin.com/in/adityapathak07)
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/adityapathak0007/SMS_Email_Spam_Classifier.git
+   cd SMS_Email_Spam_Classifier
