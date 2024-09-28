@@ -2,11 +2,11 @@ import streamlit as st
 import pickle
 import string
 import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
-nltk.download('punkt')
-nltk.download('punkt_tab')
 
 tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
