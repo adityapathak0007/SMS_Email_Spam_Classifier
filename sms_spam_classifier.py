@@ -26,7 +26,7 @@ from sklearn.ensemble import VotingClassifier
 from sklearn.ensemble import StackingClassifier
 import pickle
 #string.punctuation
-#nltk.download('punkt')
+nltk.download('punkt')
 
 # Tried using a different encoding
 df = pd.read_csv("D:\\Aditya's Notes\\All Projects\\Sms Spam Detection\\spam.csv", encoding='latin1')
